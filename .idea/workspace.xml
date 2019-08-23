@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f9b4460-2604-4e15-97a9-bf8ddf0b6f69" name="Default Changelist" comment="" />
+    <list default="true" id="0f9b4460-2604-4e15-97a9-bf8ddf0b6f69" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +15,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -100,7 +105,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1PfizFOJCKt3verd7YRpA4WQuaR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../thachpham/blog" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -141,11 +148,23 @@
       <option name="presentableId" value="Default" />
       <updated>1566271811278</updated>
       <workItem from="1566271812545" duration="14102000" />
-      <workItem from="1566351806520" duration="9547000" />
+      <workItem from="1566351806520" duration="10253000" />
+      <workItem from="1566386794053" duration="5075000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
