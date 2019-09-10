@@ -11,12 +11,13 @@ class DanhMucController extends Controller
         $danhmucs = DanhMuc::all();
         return view('danhmuc',['danhmucs'=>$danhmucs]);
     }
-    public function themDanhMuc ( Request $request){
-            $danhmuc = new DanhMuc;
+    public function ThemNhanVien ( Request $request){
+        $this->validate($request);
+            $nhanvien = new nhanvien;
 
-            $danhmuc->ten=$request->name;
-
-            $danhmuc->save();
+            $nhanvien->ten=$request->name;
+            $nhanvien_>
+            $nhanvien->save();
 
             return back()->withInput();
     }

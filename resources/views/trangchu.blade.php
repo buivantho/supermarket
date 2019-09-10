@@ -24,19 +24,20 @@
     <title>React App</title>
 </head>
 <body>
+
 <ul class="nav nav-tabs" id="navId">
     <li class="nav-item">
         <a href="{{route('danhmuc')}}" class="nav-link">Danh mục</a>
     </li>
-    <li class="nav-item">
-        <a href="{{route('sanpham')}}" class="nav-link ">Sản Phẩm</a>
-    </li>
-    <li class="nav-item">
-        <a href="{{route('hoadon')}}" class="nav-link">Hóa đơn</a>
-    </li>
-    <li class="nav-item">
-        <a href="{{route('nhanvien')}}" class="nav-link">Nhân viên</a>
-    </li>
+{{--    <li class="nav-item">--}}
+{{--        <a href="{{route('sanpham')}}" class="nav-link ">Sản Phẩm</a>--}}
+{{--    </li>--}}
+{{--    <li class="nav-item">--}}
+{{--        <a href="{{route('hoadon')}}" class="nav-link">Hóa đơn</a>--}}
+{{--    </li>--}}
+{{--    <li class="nav-item">--}}
+{{--        <a href="{{route('nhanvien')}}" class="nav-link">Nhân viên</a>--}}
+{{--    </li>--}}
 </ul>
 <!-- Tab panes -->
 <div class="tab-content">

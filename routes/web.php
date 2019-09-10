@@ -11,36 +11,38 @@
 |
 */
 
-Route::get('/', function () {
-    return view('trangchu');
-});
-Route::get('trangchu',function (){
-    return view('trangchu');
-});
+//Route::get('/', function () {
+//    return view('');
+//});
+//Route::get('danhmuc',function (){
+//    return view('danhmuc');
+//});
+//
+//
+//
+//Route::get('danhmuc','DanhMucController@getDanhMuc')->name('danhmuc');
+//
+//Route::post('danhmuc','DanhMucController@themDanhMuc')->name('themdanhmuc');
+//
+//Route::get('suadanhmuc/{id}','DanhMucController@suaDanhMuc')->name('suadanhmuc');
+//
+//Route::post('suadanhmuc/{id}/','DanhMucController@luuDanhMuc')->name('luudanhmuc');
+//
+//Route::get('xoadanhuc/{id}','DanhMuccontroller@xoaDanhMuc')->name('xoadanhmuc');
+//
+//Route::get('sanpham',function (){
+//    return view('sanpham');
+//})->name('sanpham');
+//
+//
+//Route::get('hoadon',function (){
+//    return view('hoadon');
+//})->name('hoadon');
+//
+
+Route::get('/student','NhanVienController@student');
+
+Route::post('themstudent','NhanVienController@Themstudent');
+Route::post('themstudent','NhanVienController@luuStudentt');
 
 
-
-Route::get('danhmuc','DanhMucController@getDanhMuc')->name('danhmuc');
-
-Route::post('danhmuc','DanhMucController@themDanhMuc')->name('themdanhmuc');
-
-Route::get('suadanhmuc/{id}','DanhMucController@suaDanhMuc')->name('suadanhmuc');
-
-Route::post('suadanhmuc/{id}/','DanhMucController@luuDanhMuc')->name('luudanhmuc');
-
-Route::get('xoadanhuc/{id}','DanhMuccontroller@xoaDanhMuc')->name('xoadanhmuc');
-
-Route::get('sanpham',function (){
-    return view('sanpham');
-})->name('sanpham');
-
-
-Route::get('hoadon',function (){
-    return view('hoadon');
-})->name('hoadon');
-
-
-
-Route::get('nhanvien',function (){
-    return view('nhanvien');
-})->name('nhanvien');
